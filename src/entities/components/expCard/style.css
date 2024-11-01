@@ -1,0 +1,33 @@
+.exp_card {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+
+    .exp_card__icon {
+        margin-bottom: 70px;
+        padding: 10px 10px;
+
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+    .exp_card__content {
+        display: flex;
+        gap: 30px;
+
+        span {
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        p {
+            font-size: 30px;
+            font-weight: 700;
+            color: var(--textOpacity);
+            text-align: center;
+        }
+    }
+}

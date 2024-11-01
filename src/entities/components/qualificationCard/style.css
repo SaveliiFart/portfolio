@@ -1,0 +1,30 @@
+.qualification__card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: fit-content;
+    border: 2px solid #f2f2f2;
+    padding: 5px;
+    border-radius: 10px;
+
+    span {
+        font-size: 16px;
+        font-weight: 500;
+        color: #2e2e2e;
+        padding: 5px 5px 40px 5px;
+    }
+}
+
+.qualification__card_info {
+    img {
+        width: 15px;
+        height: 15px;
+        margin: 0 5px 0 5px;
+    }
+
+    span {
+        font-size: 16px;
+        font-weight: 400;
+        color: var(--textOpacity);
+    }
+}

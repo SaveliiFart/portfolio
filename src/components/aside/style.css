@@ -1,0 +1,104 @@
+.aside {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+    border-right: 2px solid var(--primary);
+}
+
+.aside__enemy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 40px;
+
+    img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+.aside__name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 20px;
+
+    p {
+        color: var(--primary);
+        padding-bottom: 10px;
+        font-size: 22px;
+
+        strong {
+            font-size: 24px;
+        }
+    }
+
+    span {
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+
+.aside__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 40px;
+
+    p {
+        font-size: 22px;
+        font-weight: 300;
+        text-align: center;
+        padding-bottom: 25px;
+        color: #2e2e2e;
+    }
+}
+
+.aside__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    padding-top: 20px;
+
+    img {
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.aside__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+
+    button {
+        width: 200px;
+        height: 50px;
+        background-color: var(--primary);
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+
+        &:hover {
+            background-color: #3e4f8a;
+            transform: scale(1.05);
+        }
+    }
+}
