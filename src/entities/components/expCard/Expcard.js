@@ -8,9 +8,9 @@ const Expcard = (props) => {
             </div>
             <div className="exp_card__content">
                 <span>
-                Years
+                {props.title[0]}
                 <br />
-                experience
+                {props.title[1]}
                 </span>
                 <p>{props.yers}</p>
             </div>

@@ -1,7 +1,6 @@
 import './style.css';
 import { useEffect, useRef } from "react";
 import { useLocalStorage } from "../../entities/utils/useLocalStorage";
-import detectedDarkMode from "../../entities/utils/detectedDarkMode";
 
 const Darkmode = (props) => {
 
@@ -9,7 +8,7 @@ const Darkmode = (props) => {
     const circleRef = useRef(null);
 
     const app = props.app.current;
-    const [darkMode, setDarkMode] = useLocalStorage("darkMode", detectedDarkMode());
+    const [darkMode, setDarkMode] = useLocalStorage("darkMode", 'light');
 
     useEffect(() => {
         if(app) {
@@ -22,6 +21,7 @@ const Darkmode = (props) => {
             }
         }
     }, [darkMode, app]);
+
 
     const toggleDarkMode = () => {
         setDarkMode((curValue) => {

@@ -20,7 +20,7 @@ return (
         </div>
         <div className="main__cards">
             {expList.map((item) => {
-                return <Expcard key={item.id} id={item.id} imgName={item.imgName} yers={item.yers} />;
+                return <Expcard key={item.id} title={item.title} id={item.id} imgName={item.imgName} yers={item.yers} />;
             })}
         </div>
         <div className="main__qualification">
