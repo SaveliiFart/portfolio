@@ -13,10 +13,10 @@ const Darkmode = (props) => {
     useEffect(() => {
         if(app) {
             if(darkMode === 'dark') {
-                app.style.backgroundColor = 'rgba(77, 80, 94, 0.5)';
+                app.classList.add('darkMode');
                 circleRef.current.classList.add('btn__darkMode_circle-active');
             } else {
-                app.style.backgroundColor = 'rgba(243,243,243,0.5)';
+                app.classList.remove('darkMode');
                 circleRef.current.classList.remove('btn__darkMode_circle-active');
             }
         }
@@ -28,6 +28,18 @@ const Darkmode = (props) => {
             return curValue === 'light' ? 'dark' : 'light';
         });
     }
+
+    useEffect(() => {
+        const handleUnload = () => {
+            localStorage.removeItem("darkMode");
+        };
+
+        window.addEventListener("beforeunload", handleUnload);
+
+        return () => {
+            window.removeEventListener("beforeunload", handleUnload);
+        };
+    }, []);
 
     return (
         <button ref={btnRef} className="btn__darkMode" onClick={toggleDarkMode}>
