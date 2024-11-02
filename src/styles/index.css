@@ -18,33 +18,14 @@ a {
 
 :root {
   --linear: linear-gradient(180deg, rgba(74,107,225,1) 0%, rgba(225,74,101,1) 100%);
-
   --primary: #5671A6;
-
-  --html: #CC985B;
-  --htmlBack: #F4B76E;
-
-  --css: #84B1DB;
-  --cssBack: #CDE7FF;
-
-  --js: #EDE98B;
-  --jsBack: #FFFCB6;
-
-  --react: #87D9D4;
-  --reactBack: #A9EBE7;
-
-  --node: #8CC84B;
-  --nodeBack: #A9EBE7;
-
-  --typescript: #007ACC;
-  --typescriptBack: #92d2fc;
-
-  --angular: #DD0031;
-  --angularBack: #ff8ba5;
-
   --nav-border: #6D8093;
-
   --textOpacity: rgba(46, 46, 46, 0.7);
+  --lightBgColor: rgba(243,243,243,0.5);
+}
+
+#darkMode{
+  --darkBgColor: rgba(77, 80, 94, 0.5);
 }
 
 html, body {
@@ -106,7 +87,7 @@ html, body {
   flex-direction: column;
   width: 100%;
   height: 100%;
-  background-color: rgba(243,243,243,0.5);
+  background-color: var(--lightBgColor);
   border-radius: 10px;
 }
 

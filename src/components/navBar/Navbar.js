@@ -3,7 +3,7 @@ import Darkmode from '../darkMode/Darkmode';
 import Navlist from '../../entities/components/navList/Navlist';
 import ONavList from '../../entities/utils/navList';
 
-const Navbar = () => {
+const Navbar = (props) => {
 return (
     <nav className="nav">
         <div className="container">
@@ -16,7 +16,7 @@ return (
                     {ONavList.map((item) => (
                         <Navlist key={item.id} id={item.id} name={item.name} path={item.path}/>
                     ))}
-                    <Darkmode />
+                    <Darkmode app={props.app}/>
                 </ul>
             </div>
         </div>

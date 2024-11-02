@@ -7,17 +7,17 @@ const expList = [
     {
         id:1,
         imgName: exp,
-        yers: '2'
+        yers: '1'
     },
     {
         id:2,
         imgName: prod,
-        yers: '20'
+        yers: '6'
     },
     {
         id:3,
         imgName: companiesWork,
-        yers: '2'
+        yers: '0'
     }
 ];
 

@@ -11,18 +11,13 @@ const navList = [
     },
     {
         id: 3,
-        path: '/projects',
-        name: 'Projects'
-    },
-    {
-        id: 4,
         path: '/services',
         name: 'Services'
     },
     {
-        id: 5,
-        path: '/contact',
-        name: 'Contact'
+        id: 4,
+        path: '/contacts',
+        name: 'Contacts'
     },
 ];
 

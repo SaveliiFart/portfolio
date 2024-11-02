@@ -35,7 +35,7 @@ return (
             </a>
         </div>
         <div className="aside__btn">
-            <button>Dovloand CV</button>
+            <button><a href="https://drive.google.com/file/d/10wjAM8aQyi7IgvM_x_DsweI7Z7eBoV3z/view?usp=drive_link">Dowloand CV</a></button>
         </div>
     </aside>
 );

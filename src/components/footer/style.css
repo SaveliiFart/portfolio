@@ -1,0 +1,10 @@
+.footer{
+    background-color: rgba(140, 174, 207, 0.6);
+    padding: 4%;
+    margin-top: 24px;
+    border-radius: 0 0 10px 0;
+}
+
+.footer__title{
+    color: #f2f2f2;
+}
