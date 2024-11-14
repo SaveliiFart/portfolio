@@ -1,7 +1,6 @@
 import "./style.css";
 import enemy from "../../img/aside/enemy.svg";
 import telegram from "../../img/aside/telegram.png";
-import instagram from "../../img/aside/instagram.svg";
 import github from "../../img/aside/github.svg";
 
 const Aside = () => {
@@ -26,9 +25,6 @@ return (
         <div className="aside__social">
             <a href="https://t.me/Savelii_Fartushnyi">
                 <img src={telegram} alt="telegram" />
-            </a>
-            <a href="https://www.instagram.com/fartuw/">
-                <img src={instagram} alt="instagram" />
             </a>
             <a href="https://github.com/SaveliiFart">
                 <img src={github} alt="github" />
