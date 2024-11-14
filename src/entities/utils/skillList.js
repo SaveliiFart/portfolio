@@ -13,28 +13,28 @@ const skillList = [
         html: {
             img: html,
             title: "HTML",
-            percentage: 80,
+            percentage: 90,
             colorFront: '#CC985B',
             colorBack: '#F4B76E'
         },
         css: {
             img: css,
             title: "CSS",
-            percentage: 80,
+            percentage: 90,
             colorFront: '#84B1DB',
             colorBack: '#CDE7FF'
         },
         js: {
             img: js,
             title: "JavaScript",
-            percentage: 70,
+            percentage: 80,
             colorFront: '#EDE98B',
             colorBack: '#FFFCB6'
         },
         react: {
             img: react,
             title: "React",
-            percentage: 30,
+            percentage: 50,
             colorFront: '#87D9D4',
             colorBack: '#A9EBE7'
         },
@@ -48,14 +48,14 @@ const skillList = [
         angular: {
             img: angular,
             title: "Angular",
-            percentage: 30,
+            percentage: 40,
             colorFront: '#DD0031',
             colorBack: '#ff8ba5'
         },
         node: {
             img: node,
             title: "NodeJs",
-            percentage: 40,
+            percentage: 50,
             colorFront: '#8CC84B',
             colorBack: '#A9EBE7'
         },
@@ -69,7 +69,7 @@ const skillList = [
         electron: {
             img: electron,
             title: "Electron",
-            percentage: 50,
+            percentage: 60,
             colorFront: '#6EBDFF',
             colorBack: '#A9EBE7'
         }
